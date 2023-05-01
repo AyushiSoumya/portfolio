@@ -1,0 +1,41 @@
+.contact_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(176, 121, 226);
+    .contact_{
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+        color: white;
+    }
+    .linkedin{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+        margin: auto;
+        .a{
+            text-decoration: none;
+        }
+    }
+    .github{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+        margin: auto;
+        .a {
+                text-decoration: none;
+            }
+    }
+    .leetcode{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+        margin: auto;
+        .a {
+                text-decoration: none;
+            }
+    }
+}

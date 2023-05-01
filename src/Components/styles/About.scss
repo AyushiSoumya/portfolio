@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+.about_container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    margin: auto;
+    background-color:rgb(171, 131, 209);
+       
+    
+
+    .SCHOOLING {
+    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+    
+            .nam {
+                padding: 5%;
+                font-size: 5vh;
+                font-family: Yatra One;
+                justify-content: center;
+                margin: auto;
+            }
+    
+            .info {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin: auto;
+                .beautify1 {
+                    justify-content: center;
+                    margin: auto;
+                    .pic {
+                            border-radius: 50%;
+                            size:10vh;
+                        }
+                }
+    
+                .beautify2 {
+                    justify-content: center;
+                    margin: auto;
+                padding: 2%;
+                }
+            }
+    
+        }
+    .COLLEGE{
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    .nam {  padding:5%;
+            font-size: 5vh;
+            font-family: Yatra One;
+            justify-content: center;
+                margin: auto;
+        }
+        .info{
+            display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin: auto;
+                .beautify1 {
+                        justify-content: center;
+                        margin: auto;
+                        .pic {
+                                border-radius: 50%;
+                            size: 10vh;
+                            }
+                    }
+                
+                    .beautify2 {
+                        justify-content: center;
+                        margin: auto;
+                padding:2%;
+                    }
+            }
+    
+    }
+    .SKILLS{
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+        .nam {padding: 5%;
+                font-size: 5vh;
+                font-family: Yatra One;
+                justify-content: center;
+                    margin: auto;
+            }
+    .info{
+        display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: auto;
+        .beautify1 {
+                justify-content: center;
+                margin: auto;
+                .pic {
+                        border-radius: 50%;
+                    }
+            }
+        
+            .beautify2 {
+                justify-content: center;
+                margin: auto;
+                padding: 2%;
+            }
+    }
+   
+    }
+
+    .INTERESTS{
+        display: flex;
+            flex-direction: column ;
+            justify-content: center;
+            margin: auto;
+        .nam {padding: 5%;
+                font-size:5vh;
+                font-family: Yatra One;
+                justify-content: center;
+                    margin: auto;
+            }
+        .info{
+            display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin: auto;
+                .beautify1 {
+                    justify-content: center;
+                    margin: auto;
+                    
+                    .pic{
+                        border-radius: 50%;
+                            
+                    }
+                }
+                .beautify2{
+                    justify-content: center;
+                        margin: auto;
+               padding:2%;
+                }
+            }
+        
+        }
+                .INTERNSHIPS {
+        
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin: auto;
+        
+                    .nam {
+                        padding: 5%;
+                        font-size: 5vh;
+                        font-family: Yatra One;
+                        justify-content: center;
+                        margin: auto;
+                    }
+        
+                    .info {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        margin: auto;
+        
+                        .beautify1 {
+                            justify-content: center;
+                            margin: auto;
+        
+                            .pic {
+                                border-radius: 50%;
+                                size: 10vh;
+                            }
+                        }
+        
+                        .beautify2 {
+                            justify-content: center;
+                            margin: auto;
+                            padding: 2%;
+                        }
+                    }
+        
+                }
+}
