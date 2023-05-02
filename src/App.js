@@ -15,27 +15,26 @@ import Header from './Components/Header';
 function App() {
   return (
     <>
-      <React.StrictMode>
-        <HashRouter>
-          <div className="App_container">
+
+      <HashRouter>
+        <div className="App_container">
 
 
-            <div className="main">
-              <Header exact path="/" element={<Header />} />
+          <div className="main">
+            <Header exact path="/" element={<Header />} />
 
-              <Routes>
-                <Route exact path="/" element={<Home />} />
+            <Routes>
+              <Route exact path="/" element={<Home />} />
 
-                <Route exact path="/About" element={<About />} />
+              <Route exact path="/About" element={<About />} />
 
-                <Route exact path="/Contact" element={<Contact />} />
+              <Route exact path="/Contact" element={<Contact />} />
 
-              </Routes>
+            </Routes>
 
-            </div>
           </div>
-        </HashRouter>
-      </React.StrictMode>
+        </div>
+      </HashRouter>
 
 
     </>
